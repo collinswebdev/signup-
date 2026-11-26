@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Signup Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="">
+      <h1 class="h1-text">Sign Up Form</h1>
+      <label for="username">Username:</label>
+      <input type="text" placeholder="John doe" id="username" />
+      <label for="password">password:</label>
+      <input type="password" placeholder="Secret code" id="password" />
+      <label for="gmail">Gmail:</label>
+      <input type="email" placeholder="Janedoe@gmail.com" id="gmail" />
+      <label for="gender">Gender:</label>
+      <select required>
+        <option value="" selected disabled class="default"></option>
+        <option value="male" id="maleoption">Male</option>
+        <option value="female" id="femaleoption">female</option>
+      </select>
+
+      <label for="favcolor">Select your favorite color:</label>
+      <input type="color" id="favcolor" name="favcolor" />
+      <label for="date" id="">Date of birth:</label>
+      <input type="date" id="date" />
+      <label for="country">Country or region:</label>
+      <input type="text" placeholder="" id="country" />
+      <div>
+        <p class="checkbox p">
+          Read a private note: <a href="#" target="_blank">click here</a>
+        </p>
+        <br />
+        <div class="check">
+          <input type="checkbox" class="checkbox" id="checkbox" />
+          <label for="checkbox" class="checkboxx checkbox">
+            i agree to terms and conditions below
+            <a href="#">Terms and condition</a>
+          </label>
+        </div>
+      </div>
+      <input
+        onclick="signUp()"
+        type="submit"
+        value="Sign up"
+        class="submit-btn"
+        id="signup"
+      />
+    </form>
+    <div id="paragraph"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

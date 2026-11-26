@@ -1,0 +1,234 @@
+html {
+  height: 500vh;
+}
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px;
+}
+form {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  gap: 15px;
+  padding-left: 15px;
+  padding-right: 25px;
+  padding-bottom: 60px;
+}
+h1 {
+  margin-left: 115px;
+  color: pink;
+}
+p {
+  display: inline-block;
+  color: white;
+}
+a {
+  color: rgb(185, 168, 168);
+}
+.checkbox {
+  width: 15px;
+  color: white;
+}
+label {
+  color: rgb(185, 168, 168);
+}
+input {
+  width: 450px;
+  background-color: black;
+  color: white;
+  border: solid rgb(71, 71, 71) 1px;
+  color: rgb(185, 168, 168);
+
+  padding: 10px 0px;
+  padding-left: 10px;
+}
+input:focus {
+  outline: none;
+}
+
+select {
+  width: 300px;
+  padding: 7px;
+  background-color: black;
+  color: white;
+  border: solid rgb(71, 71, 71) 1px;
+  padding: 10px 0px;
+  padding-left: 10px;
+}
+select:focus {
+  outline: none;
+}
+option {
+  color: rgb(185, 168, 168);
+}
+.default {
+  color: rgb(185, 168, 168);
+}
+.submit-btn {
+  background-color: pink;
+  color: black;
+  width: 200px;
+  margin-left: 120px;
+  padding: 10px 10px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 200px;
+}
+/* Small phones */
+@media (max-width: 360px) {
+  html {
+    height: 0vh;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px;
+  }
+  form {
+    width: 400px;
+    font-size: 15px;
+  }
+  input {
+    width: 100%;
+  }
+  h1 {
+    margin: 20px 55px;
+  }
+  .submit-btn {
+    margin: 20px 60px;
+  }
+  .check {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    margin: 0px 0px;
+    margin-right: 10px;
+  }
+  .p {
+    width: 150px;
+    margin: 0px 0px;
+  }
+  .checkbox {
+    margin: 0px 0px;
+  }
+  .checkboxx {
+    width: 290px;
+    padding-top: 3px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    justify-content: center;
+  }
+}
+
+/* Standard phones */
+@media (max-width: 390px) {
+  html {
+    height: 0vh;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px;
+  }
+  form {
+    width: 400px;
+    font-size: 15px;
+  }
+  input {
+    width: 100%;
+  }
+  h1 {
+    margin: 20px 55px;
+  }
+  .submit-btn {
+    margin: 20px 60px;
+  }
+  .check {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    margin: 0px 0px;
+    margin-right: 10px;
+  }
+  .p {
+    width: 150px;
+    margin: 0px 0px;
+  }
+  .checkbox {
+    margin: 0px 0px;
+  }
+  .checkboxx {
+    width: 290px;
+    padding-top: 3px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    justify-content: center;
+  }
+}
+
+/* Larger phones */
+@media (max-width: 480px) {
+  html {
+    height: 0vh;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px;
+  }
+  form {
+    width: 400px;
+    font-size: 15px;
+  }
+  input {
+    width: 100%;
+  }
+  h1 {
+    margin: 20px 55px;
+  }
+  .submit-btn {
+    margin: 20px 60px;
+  }
+  .check {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    margin: 0px 0px;
+    margin-right: 10px;
+  }
+  .p {
+    width: 150px;
+    margin: 0px 0px;
+  }
+  .checkbox {
+    margin: 0px 0px;
+  }
+  .checkboxx {
+    width: 290px;
+    padding-top: 3px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    justify-content: center;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+}
