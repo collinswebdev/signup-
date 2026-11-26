@@ -8,7 +8,7 @@ const date = document.getElementById("date");
 const country = document.getElementById("country");
 const checkbox = document.getElementById("checkbox");
 const signup = document.getElementById("signup");
-const paragraph = document.getElementById("paragraph");
+const body = document.getElementById("body");
 
 function signUp() {
   let result = [
@@ -29,6 +29,6 @@ function signUp() {
     result.push("unchecked");
   }
   for (let i = 0; i < result.length; i++) {
-    return (paragraph.innerHTML = `Database: ${result}`);
+    return (body.innerHTML = `Database: ${result}`);
   }
 }
